@@ -60,7 +60,7 @@
                         <li class="nav-item">
                             <a href="pendaftaran.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Praktikum-02</p>
+                                <p>Praktikum-03</p>
                             </a>
                         </li>
                     </ul>
