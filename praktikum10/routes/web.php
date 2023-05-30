@@ -5,6 +5,7 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CustomerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,5 @@ Route::get('/', function () {
 
 Route::get('/dashboard', [DashboardController::class, 'index']);
 Route::get('/produk', [ProdukController::class, 'index']);
+Route::get('/customer', [CustomerController::class, 'index']);
+Route::get('/list_customer', [CustomerController::class, 'list_customer']);
