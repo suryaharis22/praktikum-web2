@@ -26,3 +26,8 @@ Route::get('/dashboard', [DashboardController::class, 'index']);
 Route::get('/produk', [ProdukController::class, 'index']);
 Route::get('/customer', [CustomerController::class, 'index']);
 Route::get('/list_customer', [CustomerController::class, 'list_customer']);
+Route::get('/produk/create', [ProdukController::class, 'create']);
+Route::post('/produk/store', [ProdukController::class, 'store']);
+Route::get('/produk/edit/{id}', [ProdukController::class, 'edit']);
+Route::put('/produk/update/{id}', [ProdukController::class, 'update']);
+Route::get('/produk/destroy/{id}', [ProdukController::class, 'destroy']);
